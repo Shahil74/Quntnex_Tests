@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enroll </title>
+    <style>
+        body{
+            background-color: aliceblue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .main {
+            margin-top: 250px;
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            padding: 5px;
+        }
+        input[type="text"]{
+            border: 1px solid black;
+        }
+        h1{
+            color:  rgb(115, 115, 146);
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+    <h1>Register Now</h1>
+    <table>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td>Qualification</td>
+            <td><input type="text" name="qualification"></td>
+        </tr>
+        <tr>
+            <td>Specialisation </td>
+            <td><input type="text" name="specialisation"></td>
+        </tr> 
+        <tr>
+            <td>Year Of Pass</td>
+            <td><input type="text" name="yop"></td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><input type="text" name="address"></td>
+        </tr>
+        <tr>
+            <td>Course</td>
+            <td><select name="course">
+                <option>Choose a Course</option>
+                <option value="Java" >Java FullStack</option>
+                <option  value="Python">Python FullStack</option>
+                <option value="Automation" >Automation Testing</option>
+            </select></td>
+            
+        </tr>
+        <tr><td><button type="submit" >Register</button></td></tr>
+
+    </table>
+</div>
+</body>
+</html>
